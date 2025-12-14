@@ -8,8 +8,8 @@ A minimal Python library to create intros for [`pygame community edition`](https
 
 ## Features
 
-- Load and display custom images/frames
-- Load and play custom sounds
+- Load and display custom image(s)
+- Load and play custom sound
 - Progress bar and skippable intro options
 - Customizable: duration, fade-in/fade-oud and scaling
 - Async support for pygbag compatibility
@@ -40,13 +40,13 @@ pygame_intro.settings(
     skippable=True,
 )
 
-# Optional: add image or images
+# Optional: add image(s)
 pygame_intro.add_image("my_image.png", "my_image2.png", "my_image3.png")
 
 # Optional: add sound
 pygame_intro.add_sound("path/my_sound.mp3", volume=0.7)
 
-# Optional: change background color
+# Optional: change background color/surface
 pygame_intro.change_background((30, 30, 30))
 
 # Start the intro
