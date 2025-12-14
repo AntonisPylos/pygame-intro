@@ -30,6 +30,8 @@ import pygame_intro
 pygame.init()
 pygame_intro.init()
 
+pygame.display.set_mode((1000,600))
+
 # Optional: customize intro settings
 pygame_intro.settings(
     duration=2,
@@ -61,14 +63,18 @@ Pygbag Example:
 # ]
 # ///
 
+import pygame
 import pygame_intro
 import asyncio
 
 # Make sure to implement any changes needed for pygbag
 async def main():
-	pygame_intro.init()
-	pygame_intro.add_image("path/my_image.png")
+    pygame.init()
+    pygame_intro.init()
 
+    pygame.display.set_mode((600,600))
+
+    pygame_intro.add_image("path/my_image.png")
     pygame_intro.settings(duration=2, fade_in=0.25, fade_out=1)
     
     await pygame_intro.web_start()
