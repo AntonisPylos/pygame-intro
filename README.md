@@ -4,6 +4,8 @@
 ![License](https://img.shields.io/github/license/AntonisDevStuff/pygame-intro)
 ![PyPI - Status](https://img.shields.io/pypi/status/pygame-intro)
 
+> This project is no longer actively maintained and has been archived.<br>No further updates, bug fixes, or support will be provided.
+
 A minimal Python library to create intros for [`pygame community edition`](https://github.com/pygame-community/pygame-ce).
 
 ## Features
