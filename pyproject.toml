@@ -1,7 +1,7 @@
 [project]
 name = "pygame_intro"
-version = "1.3.1"
-authors = [{ name = "AntonisDevStuff", email = "contact@antonisdevstuff.com" }]
+version = "1.3.3"
+authors = [{ name = "AntonisPylos", email = "antonis@pylos.dev" }]
 description = "A intro module for pygame Community Edition."
 keywords = ["pygame", "intro", "splash screen"]
 readme = "README.md"
@@ -20,9 +20,9 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: pygame",
 ]
 [project.urls]
-Repository = "https://github.com/antonisdevstuff/pygame-intro"
-Issues = "https://github.com/antonisdevstuff/pygame-intro/issues"
-Releases = "https://github.com/antonisdevstuff/pygame-intro/releases"
+Repository = "https://github.com/AntonisPylos/pygame-intro"
+Issues = "https://github.com/AntonisPylos/pygame-intro/issues"
+Releases = "https://github.com/AntonisPylos/pygame-intro/releases"
 
 [tool.setuptools]
 package-dir = { "pygame_intro" = "src" }
