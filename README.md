@@ -1,10 +1,8 @@
 # pygame-intro
 ![PyPI - Version](https://img.shields.io/pypi/v/pygame-intro)
-![Tests](https://img.shields.io/github/actions/workflow/status/AntonisDevStuff/pygame-intro/run_tests.yml)
-![License](https://img.shields.io/github/license/AntonisDevStuff/pygame-intro)
+![Tests](https://img.shields.io/github/actions/workflow/status/AntonisPylos/pygame-intro/run_tests.yml)
+![License](https://img.shields.io/github/license/AntonisPylos/pygame-intro)
 ![PyPI - Status](https://img.shields.io/pypi/status/pygame-intro)
-
-> This project is no longer actively maintained and has been archived.<br>No further updates, bug fixes, or support will be provided.
 
 A minimal Python library to create intros for [`pygame community edition`](https://github.com/pygame-community/pygame-ce).
 
